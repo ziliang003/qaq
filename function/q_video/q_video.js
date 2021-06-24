@@ -28,7 +28,7 @@ if (process.env.V_REF_URL) {
     if(process.env.V_REF_URL.indexOf('https://access.video.qq.com/user/auth_refresh') > -1 ) {
         ref_url = process.env.V_REF_URL
     } else {
-        console.log("V_REF_URL值填写错误 取消运行")
+        console.log("V_REF_URL值填写错误 取消运行") 
     }
     //验证V_REF_URL和cookie是否填写正确
     ref_url_ver()
